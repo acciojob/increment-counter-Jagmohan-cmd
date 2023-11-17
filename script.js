@@ -1,12 +1,17 @@
-//your JS code here. If required.
-let counter = document.getElementById("counter");
-let btn = document.getElementById("incrementBtn");
-let counterValue = 0;
-btn.addEventListener("click" , myFunction);
+  const counterElement = document.getElementById('counter');
+    const incrementBtn = document.getElementById('incrementBtn');
 
+    // Initialize the counter value
+    let counterValue = 0;
 
-function myFunction(){
-	alert(`Un-incremented value: ${counterValue}`);
-	counterValue++;
-	counter.innerText = counterValue;
-}
+    // Add a click event listener to the Increment button
+    incrementBtn.addEventListener('click', () => {
+      // Display the un-incremented value in an alert
+      alert(`Un-incremented value: ${counterValue}`);
+
+      // Increment the counter value
+      counterValue++;
+
+      // Update the counter display
+      counterElement.textContent = counterValue;
+    });
