@@ -7,7 +7,7 @@
     // Add a click event listener to the Increment button
     incrementBtn.addEventListener('click', () => {
       // Display the un-incremented value in an alert
-      alert(`Un-incremented value: ${counterValue}`);
+      alert(`un-incremented value: ${counterValue}`);
 
       // Increment the counter value
       counterValue++;
