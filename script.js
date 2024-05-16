@@ -1,4 +1,4 @@
-  const counterElement = document.getElementById('counter');
+  let counterElement = document.getElementById('counter');
     const incrementBtn = document.getElementById('incrementBtn');
 
     // Initialize the counter value
